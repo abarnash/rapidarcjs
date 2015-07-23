@@ -1,0 +1,38 @@
+ body {
+        background-color:#000;
+      }   
+
+      select {
+        background-color: rgba(255,255,255,.8);
+        padding: 6px;
+      }
+
+      #mapDiv_zoom_slider.esriSimpleSliderTL {
+        top: 20px;
+        left: 20px;
+        background-color: rgba(255,255,255,.7);
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -o-border-radius: 0px;
+        border-radius: 0px;
+        border: 0px;
+      }
+
+      .swatch{
+          height: 20px;
+          width: 20px;
+      }
+
+      .map-control {
+          position:absolute; 
+
+          padding: 10px;
+          background-color: rgba(245,245,245,.7);
+          z-index: 10;
+          font-family: Arial;
+      }
+
+      #legendDiv {
+          left: 10px; 
+          bottom:10px;
+      }
